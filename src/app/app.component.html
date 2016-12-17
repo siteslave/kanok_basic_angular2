@@ -1,0 +1,9 @@
+<h1>
+  Hello, {{title}}
+
+  <input type="text" [(ngModel)]="title">
+
+  <ul>
+    <li *ngFor="let friend of friends">{{ friend }}</li>
+  </ul>
+</h1>
