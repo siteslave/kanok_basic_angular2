@@ -15,9 +15,6 @@ export class AppComponent {
     this.test = 20;
     this.test = 'Hello';
 
-    // this.showName('Angular');
-    // alert(this.getAge());
-
     this.setFriends('A', 'B', 'C', 'D', 'E');
 
     this.friends.push('Bill Gate');
@@ -36,4 +33,5 @@ export class AppComponent {
     console.log(second)
     console.log(other)
   }
+  
 }
